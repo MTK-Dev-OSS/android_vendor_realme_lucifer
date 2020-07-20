@@ -99,7 +99,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lucifer/proprietary/lib64/vendor.oppo.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.camera.slogan@1.0.so \
     vendor/realme/lucifer/proprietary/lib64/vendor.oppo.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.commondcs@1.0.so \
     vendor/realme/lucifer/proprietary/lib64/vendor.oppo.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.cryptoeng@1.0.so \
-    vendor/realme/lucifer/proprietary/lib64/vendor.oppo.hardware.oiface@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.oiface@1.0.so
+    vendor/realme/lucifer/proprietary/lib64/vendor.oppo.hardware.oiface@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.oiface@1.0.so \
+    vendor/realme/lucifer/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
+    vendor/realme/lucifer/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/realme/lucifer/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
+    vendor/realme/lucifer/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
+    vendor/realme/lucifer/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so 
 
 PRODUCT_PACKAGES += \
     vendor.oppo.engnative.engineer-V1.0-java \
